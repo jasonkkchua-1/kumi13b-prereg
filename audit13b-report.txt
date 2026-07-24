@@ -20,4 +20,14 @@
   [PASS] aborted items never scored
   SUMMARY kumi13b-chain-S.jsonl: run1 PRIMITIVES_NOT_ACQUIRED · run2 PRIMITIVES_NOT_ACQUIRED · run3 PRIMITIVES_NOT_ACQUIRED · run4 PRIMITIVES_NOT_ACQUIRED · run5 PRIMITIVES_NOT_ACQUIRED
 
-AUDIT VERDICT: ALL CHECKS PASS (15 checks)
+=== AUDIT kumi13b-chain-S2.jsonl ===
+  [PASS] hash-chain integrity (incl. two-layer reflection records)
+  [PASS] oracle re-derivation from raw strings
+  [PASS] correct-flag arithmetic
+  [PASS] row assignments reproduced
+  [PASS] reflection strictly after full battery
+  [PASS] probe-consistency records coherent
+  [PASS] aborted items never scored
+  SUMMARY kumi13b-chain-S2.jsonl: run1 ANOMALOUS · run2 TOP · run3 TOP · run4 BINDING_ONLY · run5 BINDING_ONLY
+
+AUDIT VERDICT: ALL CHECKS PASS (22 checks)
